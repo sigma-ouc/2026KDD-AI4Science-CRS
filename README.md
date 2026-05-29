@@ -1,6 +1,6 @@
 # 2026KDD-AI4Science-CRS
 
-This repository is a script-level snapshot exported from the local `D:\lightGBM` workspace. It contains the core configuration, tuning, training, and evaluation entry points used for the CRS-based depression prediction pipeline.
+This repository is a script-level snapshot exported from the local workspace. It contains the core configuration, tuning, training, and evaluation entry points used for the CRS-based depression prediction pipeline.
 
 ## Included files
 
