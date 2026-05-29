@@ -6,7 +6,7 @@ This repository is a script-level snapshot exported from the local workspace. It
 
 - `config_loader.py`
   - Centralizes dataset loading, train/test split, feature lists, and categorical column definitions.
-  - Expects `AAA_Age_Cleaned.csv` at the repository root.
+  - Expects the cleaned CSV at the repository root.
 
 - `tune.py`
   - Runs Optuna hyperparameter search for LightGBM on the training split only.
