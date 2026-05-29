@@ -27,27 +27,19 @@ This repository is a script-level snapshot exported from the local workspace. It
   - Uses the fixed threshold saved during training; it does **not** optimize the threshold on the test set.
   - Exports plots and evaluation artifacts to `result/`.
 
-## Expected local files
-
-This snapshot is not a full data release. The following file is expected locally and is not committed here:
-
-- `AAA_Age_Cleaned.csv`
-
-Place it at the repository root unless you change `FILE_PATH` in `config_loader.py`.
-
 ## Recommended workflow
 
 1. Create an environment with the required packages:
-   - `lightgbm`
-   - `optuna`
-   - `pandas`
-   - `numpy`
-   - `scikit-learn`
-   - `matplotlib`
-   - `shap`
-   - `joblib`
+   - `lightgbm=4.6.0`
+   - `optuna=4.5.0`
+   - `pandas=2.3.1`
+   - `numpy=1.26.4`
+   - `scikit-learn=1.6.1`
+   - `matplotlib=3.9.4`
+   - `shap=0.49.1`
+   - `joblib=1.5.1`
 
-2. Put `AAA_Age_Cleaned.csv` in the repository root.
+2. Put the cleaned CSV file in the repository root.
 
 3. Tune hyperparameters:
 
