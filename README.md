@@ -27,15 +27,6 @@ This repository is a script-level snapshot exported from the local workspace. It
   - Uses the fixed threshold saved during training; it does **not** optimize the threshold on the test set.
   - Exports plots and evaluation artifacts to `result/`.
 
-- `train.py`
-  - Legacy exploratory training script copied from the local workspace for completeness.
-  - It is **not** the recommended entry point for final training.
-  - For the current leak-free workflow, use `tune.py` -> `train_final_model.py` -> `predict_evaluate.py`.
-
-- `feature_engineering_activity.py`
-  - Support module required by `config_loader.py`.
-  - Builds engineered activity-volume variables from the raw activity questionnaire fields.
-
 ## Expected local files
 
 This snapshot is not a full data release. The following file is expected locally and is not committed here:
